@@ -95,14 +95,14 @@ BIG_NUMBER = 1.0e100
 CONVERGENCE = 1.0e-4
 GENERATIONS = 1000
 MAX_LOOP_COST = 500.0 + 12 * 60.0  # The exclusive upper bound on the cost of a route loop.
-MAX_TIME = 60.0
+MAX_TIME = 29.0
 CULLING_SIZE = 100
 POPULATION_SIZE = 1000
 STOP_COUNT = 5
 
 # Print diagnostics if DEBUG = True.
 #
-DEBUG = True
+DEBUG = False
 
 
 def distance(point_a: Location, point_b: Location) -> float:
